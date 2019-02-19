@@ -1,0 +1,24 @@
+// Variables
+@import 'variables';
+
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+}
+
+.nav-link {
+  color: $font-clear;
+  font-size: $font-size-primary;
+  &:hover {
+    color: $font-dark;
+    text-decoration: line-through;
+  }
+}
